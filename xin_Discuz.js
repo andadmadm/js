@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         新Discuz
 // @namespace    com.cnm.sb
-// @version      0.2
+// @version      0.9
 // @description  自动调整orderby参数、跳转旧URL格式、修改attachpay为下载链接
-// @match      https://bp5.4vd5sg4er6.com/*
+// @match      https://bp5.1111.com/*
 // @match        https://sxsy*.*/forum.php?mod=forumdisplay&fid=*
 // @match        https://sxsy*.*/search.php?mod=forum&searchid=*
 // @match        https://sxsy*.*/forum.php?mod=viewthread&tid=*
@@ -13,6 +13,8 @@
 // @match        https://404*.*/forum.php?mod=viewthread&tid=*
 // @grant        none
 // @run-at       document-start
+// @downloadURL  https://raw.githubusercontent.com/andadmadm/js/refs/heads/main/xin_Discuz.js
+// @updateURL    https://raw.githubusercontent.com/andadmadm/js/refs/heads/main/xin_Discuz.js
 // ==/UserScript==
 
 (function () {
