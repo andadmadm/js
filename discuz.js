@@ -3,7 +3,7 @@
 // @version      0.3
 // @description  仅通过文本检测Discuz!网站，以依赖形式加载霞鹜文楷字体
 // @author       Your Name
-// @match        *://*/*
+// @match        https://111.111.11/*
 // @grant        GM_addStyle
 // @run-at       document-start  // 提前执行，优先加载字体资源
 // ==/UserScript==
