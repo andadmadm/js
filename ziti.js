@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Discuz! 依赖式加载霞鹜文楷（精简检测版）
 // @description  仅通过文本检测Discuz!网站，以依赖形式加载霞鹜文楷字体
-// @version      0.3
+// @version      0.5
 // @author       ai
-// @match      https://bp5.4vd5sg4er6.com/*
+// @match        https://bp5.4vd5sg4er6.com/*
 // @grant        GM_addStyle
 // @run-at       document-start  // 提前执行，优先加载字体资源
 // @downloadURL  https://raw.githubusercontent.com/andadmadm/js/refs/heads/main/ziti.js
@@ -17,7 +17,7 @@
     // 添加字体样式
     const fontStyle = `
         @font-face {
-            font-family: 'LXGW WenKai Mono Lite';
+            font-family: '霞鹜文楷';
             src: url('https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.520/LXGWWenKaiMonoLite-Regular.ttf') format('truetype');
             font-display: swap;
         }
@@ -77,7 +77,7 @@
         .pgbtn,
         .pgbtn a,
         .pgbtn span {
-            font-family: 'LXGW WenKai Mono Lite', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            font-family: 霞鹜文楷 !important;
         }
 
         /* 代码块保持等宽字体 */
@@ -85,7 +85,7 @@
         pre,
         .code,
         .blockcode {
-            font-family: 'LXGW WenKai Mono Lite', 'Courier New', Courier, monospace !important;
+            font-family: 霞鹜文楷 !important;
         }
 
         /* 标题字体适当加粗 */
@@ -113,7 +113,7 @@
     });
 
     // 添加字体加载检测
-    const checkFont = new FontFace('LXGW WenKai Mono Lite', 'url(https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.520/LXGWWenKaiMonoLite-Regular.ttf)');
+    const checkFont = new FontFace('霞鹜文楷', 'url(https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.520/LXGWWenKaiMonoLite-Regular.ttf)');
 
     checkFont.load().then((loadedFont) => {
         document.fonts.add(loadedFont);
