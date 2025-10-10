@@ -87,7 +87,7 @@ def replace_match_line(js_file, new_url):
         # Step 3: 更新 @match 行
         new_content = re.sub(
             r"// @match\s+.*",
-            f"// @match            {new_url}*",
+            f"// @match      {new_url}*",
             content,
             count=1
         )
