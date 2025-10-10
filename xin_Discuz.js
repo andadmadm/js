@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         新Discuz
-// @namespace    com.cnm.sb
+// @namespace    ai
 // @version      0.13
 // @description  自动调整orderby参数、跳转旧URL格式、修改attachpay为下载链接
 // @match      https://bp5.4vd5sg4er6.com/*
