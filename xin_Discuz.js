@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         新Discuz
 // @namespace    com.cnm.sb
-// @version      0.14
+// @version      0.12
 // @description  自动调整orderby参数、跳转旧URL格式、修改attachpay为下载链接
-// @match            https://bp5.4vd5sg4er6.com/*
+// @match        https://111.111.11/*
 // @match        https://sxsy*.*/forum.php?mod=forumdisplay&fid=*
 // @match        https://sxsy*.*/search.php?mod=forum&searchid=*
 // @match        https://sxsy*.*/forum.php?mod=viewthread&tid=*
