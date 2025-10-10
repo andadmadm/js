@@ -132,7 +132,7 @@ if __name__ == '__main__':
         # 调用新的 replace_match_line 函数
         if url:
             replace_match_line("xin_Discuz.js", url)
-            replace_match_line("discuz.js", url)
+            replace_match_line("ziti.js", url)
         else:
             logger.error("未能获取到有效URL，无法更新。")
     except Exception as e:
