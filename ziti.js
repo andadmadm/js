@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Discuz! 依赖式加载霞鹜文楷（精简检测版）
-// @version      0.4
+// @version      0.1
 // @description  仅通过文本检测Discuz!网站，以依赖形式加载霞鹜文楷字体
 // @author       Your Name
 // @match            https://bp5.4vd5sg4er6.com/*
