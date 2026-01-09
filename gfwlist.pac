@@ -1047,6 +1047,7 @@ var rules = [
             "chromecast.com",
             "chromeexperiments.com",
             "chromestatus.com",
+            "chromium.org",
             "chuang-yen.org",
             "chubold.com",
             "chubun.com",
