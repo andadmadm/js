@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         新Discuz
 // @namespace    ai
-// @version      0.18
+// @version      0.19
 // @description  自动调整orderby参数、跳转旧URL格式、修改attachpay为下载链接
-// @match        https://upn2.fwevasmpet.com/*
+// @match        https://pvew5.pver549cn.com/*
 // @match        https://sxsy*.*/forum.php?mod=forumdisplay&fid=*
 // @match        https://sxsy*.*/search.php?mod=forum&searchid=*
 // @match        https://sxsy*.*/forum.php?mod=viewthread&tid=*
