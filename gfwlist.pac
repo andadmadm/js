@@ -37,7 +37,6 @@ var rules = [
             "pver549cn.com",
             "qbtr.org",
             "sayhanabi.net",
-            "sxsy66.com",
             "tongrenquan.org",
             "tongrenshe.cc",
             "trxs.cc",
