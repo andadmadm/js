@@ -137,6 +137,7 @@ var rules = [
             "9news.com.au",
             "a-normal-day.com",
             "aamacau.com",
+            "aave.com",
             "abc.net.au",
             "abc.xyz",
             "abebooks.co.uk",
