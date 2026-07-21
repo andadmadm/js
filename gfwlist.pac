@@ -4240,6 +4240,7 @@ var rules = [
             "zello.com",
             "zenmate.com",
             "zenmate.com.ru",
+            "zenmux.ai",
             "zerohedge.com",
             "zeronet.io",
             "zhangtianliang.com",
