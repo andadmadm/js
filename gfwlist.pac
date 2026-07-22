@@ -3610,6 +3610,7 @@ var rules = [
             "togetter.com",
             "token.im",
             "tokenlon.im",
+            "tokenplus.app",
             "tokyo-porn-tube.com",
             "tokyocn.com",
             "tomp3.cc",
