@@ -3651,6 +3651,7 @@ var rules = [
             "truebuddha-md.org",
             "trustwallet.com",
             "truthsocial.com",
+            "tryai.dev",
             "tryheart.jp",
             "tt1069.com",
             "tttan.com",
