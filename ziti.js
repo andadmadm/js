@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Discuz! 依赖式加载霞鹜文楷（精简检测版）
 // @description  仅通过文本检测Discuz!网站，以依赖形式加载霞鹜文楷字体
-// @version      0.15
+// @version      0.16
 // @author       ai
-// @match        https://vv9b.vbrwd4qd356.com/*
+// @match        https://dq3s.b4e5w4dqwde.com/*
 // @grant        GM_addStyle
 // @run-at       document-start  // 提前执行，优先加载字体资源
 // @downloadURL  https://raw.githubusercontent.com/andadmadm/js/refs/heads/main/ziti.js
