@@ -4091,6 +4091,7 @@ var rules = [
             "wp.com",
             "wplace.live",
             "wpoforum.com",
+            "write.as",
             "writesonic.com",
             "wsj.com",
             "wsj.net",
